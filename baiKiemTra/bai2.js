@@ -3,7 +3,7 @@ let count = 0;
 for (let i = 1; i <= n; i++) {
   if (i % 3 == 0) {
     console.log(` Fizz`);
-    count++;
+    count += i;
   } else if (i % 5 == 0) {
     console.log(` Buzz`);
   }
@@ -16,4 +16,5 @@ for (let i = 1; i < n; i++) {
 }
 
 console.log(`Tông tất cả các chữ số đã in ra Fizz là: ${count} `);
+
 
